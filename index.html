@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Tienda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <h1>🛍️ Mi Tienda</h1>
+    <p>Productos en venta</p>
+  </header>
+
+  <main class="productos">
+    <div class="producto">
+      <h2>Producto 1</h2>
+      <p>$150 MXN</p>
+      <button onclick="agregarAlCarrito('Producto 1', 150)">Agregar</button>
+    </div>
+
+    <div class="producto">
+      <h2>Producto 2</h2>
+      <p>$250 MXN</p>
+      <button onclick="agregarAlCarrito('Producto 2', 250)">Agregar</button>
+    </div>
+  </main>
+
+  <section class="carrito">
+    <h2>🛒 Carrito</h2>
+    <ul id="listaCarrito"></ul>
+    <p>Total: $<span id="total">0</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
