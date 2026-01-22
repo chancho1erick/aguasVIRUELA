@@ -1,0 +1,31 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
